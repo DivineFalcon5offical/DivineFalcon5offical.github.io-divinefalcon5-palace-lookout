@@ -1,0 +1,173 @@
+/* ===== FONT: COOKIE (INDEX ONLY) ===== */
+@font-face {
+  font-family: "Cookie";
+  src: url("fonts/Cookie-Regular.ttf") format("truetype");
+}
+
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== BASE ===== */
+body.index {
+  font-family: "Poppins", sans-serif;
+  background-color: #C3CDE6; /* Periwinkle */
+  color: #1b1b1b;
+}
+
+/* ===== UTIL ===== */
+.cookie {
+  font-family: "Cookie", cursive;
+  color: #6A5ACD;
+}
+
+.small-text {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* ===== HEADER ===== */
+.palace-header {
+  text-align: center;
+  padding: 48px 20px;
+}
+
+.palace-header h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.welcome-line {
+  margin-top: 10px;
+}
+
+/* ===== FALCON CLAN ===== */
+.falcon-clan {
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.falcon-clan h2 {
+  background: rgba(0,0,0,0.65);
+  color: white;
+  padding: 14px 20px;
+}
+
+/* CHAT WINDOW */
+.chat-window {
+  background-image: url("https://i.pinimg.com/originals/08/15/19/0815196ef6f207eab0bf34bd037bda74.gif");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  min-height: 260px;
+}
+
+.chat-window p {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  width: fit-content;
+  max-width: 85%;
+}
+
+/* BUTTON */
+.enter-chat {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background-color: #0077B6;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.enter-chat:hover {
+  background-color: #005f91;
+}
+
+/* ===== POSTS ===== */
+.latest-post,
+.recent-posts,
+.abel-ling {
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.4);
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.recent-posts ul {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.recent-posts li {
+  margin-bottom: 6px;
+}
+
+/* ===== UTILITIES ===== */
+.utilities {
+  display: flex;
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.utility-box {
+  flex: 1;
+  background: rgba(255,255,255,0.4);
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.utility-box button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  background: #6A5ACD;
+  color: white;
+  cursor: pointer;
+}
+
+/* iPod */
+.ipod-controls button {
+  margin: 6px;
+}
+
+/* ===== QUICK ACCESS ===== */
+.quick-access {
+  max-width: 900px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.quick-access a {
+  background: rgba(0,0,0,0.15);
+  padding: 12px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #1b1b1b;
+}
+
+.quick-access a:hover {
+  background: rgba(0,0,0,0.25);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  opacity: 0.85;
+}
